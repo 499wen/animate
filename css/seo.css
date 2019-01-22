@@ -1,0 +1,93 @@
+/* 第一屏 */
+.seo-banner {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.seo-banner > img {
+    width: 100%;
+}
+
+.seo-banner .animated {
+    position: absolute;
+    top: 1%;
+    opacity: 0;
+    left: 0;
+    margin-top: -92px;
+    text-align: center;
+    width: 100%;
+    height: 184px;
+    color: red;
+}
+
+/* 第二屏 */
+.two-screen {
+    box-sizing: border-box;
+}
+
+.t-title {
+    text-align: center;
+    font-size: 48px;
+    color: #333;
+}
+
+.t-js {
+    text-align: center;
+    padding: 0 13%;
+    line-height: 2;
+    color: #333;
+    font-size: 16px;
+}
+
+.t-cat {
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 5%; 
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.t-cat > li {
+    width: 22%;
+    height: 100%;
+    margin: 0 1%;
+    box-sizing: border-box;
+}
+
+.t-cat > li .t-cat-img {
+    width: 100%;
+    height: 50%;
+    background-image: url('../images/Seo/icon20.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 10%;
+}
+
+.t-cat > li:nth-child(2) .t-cat-img {
+    background-image: url('../images/Seo/icon21.png');
+}
+
+.t-cat > li:nth-child(3) .t-cat-img {
+    background-image: url('../images/Seo/icon22.png');
+}
+
+.t-cat > li:nth-child(4) .t-cat-img {
+    background-image: url('../images/Seo/icon23.png');
+}
+
+.t-cat > li .t-cat-text {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    letter-spacing: 2px;
+}
